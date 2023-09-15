@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/container"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+
+    <TextView
+        android:id="@+id/personName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/personPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="normal">
+
+    </TextView>
+
+
+</LinearLayout>
